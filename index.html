@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>My Profile</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -8,23 +9,38 @@
 	<header>
 		<h1>My Profile</h1>
 		<nav>
-			<button><a href="projects.html">Projects</a></button>
-      <button><a href="life.html">My Life</a></button>
+			<a href="about.html" class="bn">About</a>
+			<a href="projects.html" class="bn">Projects</a>
+      		<a href="life.html" class="bn">My Life</a>
+			<a href="resume.html" class="bn">Resume</a>
+
+
 		</nav>
 	</header>
 	<main>
+		
 		<section id="intro">
+			<img src="image/me.jpeg" alt="Selfie" height="150" width="150" class="profile-img">
 			<div class="intro-text">
 				<h2>Hello, I'm Weiyi Chen!</h2>
-				<p>I am a technology auditior based in London. Highly motivated in technology, strong self-learner and good at teamwork. With 4 years’ study in mathematics and statistics, more than 1 year’s experience in the financial market, learned finance and technology in postgraduate study to pursue a tech related career.
-				</p>
 			</div>
-			<img src="/Users/chenweiyi/Desktop/study/website- front end/me.jpeg" alt="Wei-Yi Chen" class="profile-img">
-		
-		
+			<div class="button-container">
+			<a href="about.html" class="btn">About</a>
+     		<a href="projects.html" class="btn">Projects</a>
+			<a href="life.html" class="btn">My Life</a>
+			<a href="resume.html" class="btn">Resume</a>
+			</div>
+			
 	</main>
-	<footer>
-		<p>&copy; 2023 Weiyi Chen</p>
+	<footer class="footer">
+		<span>&copy; 2023 <a href="https://weiyi-chen.github.io">Weiyi&#39;s Blog</a></span>
+		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+		<span id="busuanzi_container">
+			<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+			Visitors: <span id="busuanzi_value_site_uv"></span>
+			Views: <span id="busuanzi_value_site_pv"></span>
+		</span>
 	</footer>
+	
 </body>
 </html>
